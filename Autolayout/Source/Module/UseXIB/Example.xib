@@ -64,10 +64,8 @@
                         <constraint firstAttribute="bottom" secondItem="fqW-4s-Bzb" secondAttribute="bottom" constant="20" id="DUF-90-o5p"/>
                         <constraint firstItem="xFf-Ae-y9O" firstAttribute="leading" secondItem="yRM-8z-fiV" secondAttribute="leading" constant="20" id="Qrx-3u-UY2"/>
                         <constraint firstAttribute="trailing" secondItem="xFf-Ae-y9O" secondAttribute="trailing" constant="20" id="cJ5-p6-Lho"/>
-                        <constraint firstAttribute="height" constant="284" id="i1c-ql-CT8"/>
                         <constraint firstItem="xFf-Ae-y9O" firstAttribute="top" secondItem="yRM-8z-fiV" secondAttribute="top" constant="20" id="ilT-dh-8KT"/>
                         <constraint firstAttribute="centerX" secondItem="fqW-4s-Bzb" secondAttribute="centerX" id="mXr-OY-Xpj"/>
-                        <constraint firstAttribute="width" constant="160" id="wXA-uf-QpL"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K35-z7-0wK" userLabel="BradView">
@@ -89,12 +87,10 @@
                     <color key="backgroundColor" red="0.70845363449999998" green="0.13171129275706217" blue="0.70169778442048536" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="centerX" secondItem="6Oa-ss-Bbr" secondAttribute="centerX" id="9iv-WZ-21Q"/>
-                        <constraint firstAttribute="height" constant="284" id="INu-mK-Q9k"/>
                         <constraint firstAttribute="trailing" secondItem="DYt-JL-QOa" secondAttribute="trailing" constant="20" id="br8-14-q0k"/>
                         <constraint firstAttribute="bottom" secondItem="6Oa-ss-Bbr" secondAttribute="bottom" constant="20" id="jaY-Ge-xLJ"/>
                         <constraint firstItem="6Oa-ss-Bbr" firstAttribute="top" secondItem="DYt-JL-QOa" secondAttribute="bottom" constant="8" id="lOf-gR-TxO"/>
                         <constraint firstItem="DYt-JL-QOa" firstAttribute="leading" secondItem="K35-z7-0wK" secondAttribute="leading" constant="20" id="qBi-kD-Oq2"/>
-                        <constraint firstAttribute="width" constant="160" id="w7B-cN-pOn"/>
                         <constraint firstItem="DYt-JL-QOa" firstAttribute="top" secondItem="K35-z7-0wK" secondAttribute="top" constant="20" id="yJa-61-wfq"/>
                     </constraints>
                 </view>
@@ -117,10 +113,8 @@
                     <color key="backgroundColor" red="0.70845363449999998" green="0.10855556285106548" blue="0.15801689481638082" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="1R7-6H-OBs" secondAttribute="bottom" constant="20" id="0ck-3h-ZhZ"/>
-                        <constraint firstAttribute="height" constant="284" id="1eo-6h-eez"/>
                         <constraint firstAttribute="trailing" secondItem="Nbg-eQ-zPy" secondAttribute="trailing" constant="20" id="Lgs-Ki-tyv"/>
                         <constraint firstAttribute="centerX" secondItem="1R7-6H-OBs" secondAttribute="centerX" id="X1n-ej-61q"/>
-                        <constraint firstAttribute="width" constant="160" id="YPh-HI-qKu"/>
                         <constraint firstItem="Nbg-eQ-zPy" firstAttribute="leading" secondItem="lJ8-85-spZ" secondAttribute="leading" constant="20" id="Z9M-Ao-G24"/>
                         <constraint firstItem="1R7-6H-OBs" firstAttribute="top" secondItem="Nbg-eQ-zPy" secondAttribute="bottom" constant="8" id="jt4-RH-pay"/>
                         <constraint firstItem="Nbg-eQ-zPy" firstAttribute="top" secondItem="lJ8-85-spZ" secondAttribute="top" constant="20" id="lcY-C2-8mF"/>
