@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "AutolayoutViewController.h"
+#import "AutolayoutWIthCodeController.h"
+
 
 @implementation AppDelegate
 
@@ -17,7 +19,8 @@
   // Override point for customization after application launch.
   self.window.backgroundColor = [UIColor whiteColor];
   
-  AutolayoutViewController *controller = [[AutolayoutViewController alloc] initWithNibName:@"Example" bundle:nil];
+  //AutolayoutViewController *controller = [[AutolayoutViewController alloc] initWithNibName:@"Example" bundle:nil];
+  AutolayoutWIthCodeController *controller = [[AutolayoutWIthCodeController alloc] init];
   self.window.rootViewController = controller;
   [self.window makeKeyAndVisible];
   return YES;
