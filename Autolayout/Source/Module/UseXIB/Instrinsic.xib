@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AutolayoutViewController">
+            <connections>
+                <outlet property="view" destination="Qiq-PN-KMp" id="IpW-U1-yi5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Qiq-PN-KMp">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCJ-cw-elK">
+                    <rect key="frame" x="87" y="69" width="146" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="long long long button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="fMQ-ck-0aL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjJ-Jc-LRX">
+                    <rect key="frame" x="258" y="69" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.13147926409999999" green="0.70845363449999998" blue="0.30947192759999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="1" green="0.18951751620000001" blue="0.21177458199999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVb-iM-cb6">
+                    <rect key="frame" x="87" y="20" width="146" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.18951751620000001" blue="0.21177458199999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="cEV-Py-N2x"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bCJ-cw-elK" firstAttribute="top" secondItem="VVb-iM-cb6" secondAttribute="bottom" constant="19" id="2Kh-YW-ed2"/>
+                <constraint firstItem="VVb-iM-cb6" firstAttribute="width" secondItem="bCJ-cw-elK" secondAttribute="width" id="2gW-Vm-GDM"/>
+                <constraint firstAttribute="centerX" secondItem="VVb-iM-cb6" secondAttribute="centerX" id="2iD-RE-biu"/>
+                <constraint firstItem="QjJ-Jc-LRX" firstAttribute="leading" secondItem="bCJ-cw-elK" secondAttribute="trailing" constant="25" id="F8L-kp-Qk3"/>
+                <constraint firstAttribute="bottom" secondItem="QjJ-Jc-LRX" secondAttribute="bottom" constant="469" id="LPR-Tw-Ze1"/>
+                <constraint firstAttribute="centerX" secondItem="bCJ-cw-elK" secondAttribute="centerX" id="MGL-kV-yov"/>
+                <constraint firstItem="bCJ-cw-elK" firstAttribute="top" secondItem="Qiq-PN-KMp" secondAttribute="top" constant="69" id="ZA0-Ts-HiY"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
