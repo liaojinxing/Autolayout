@@ -27,7 +27,8 @@
 		C73A715318A8CEB500347DE7 /* Dennis Ritchie.png in Resources */ = {isa = PBXBuildFile; fileRef = C73A714F18A8CEB500347DE7 /* Dennis Ritchie.png */; };
 		C73A715418A8CEB500347DE7 /* Matthijs.png in Resources */ = {isa = PBXBuildFile; fileRef = C73A715018A8CEB500347DE7 /* Matthijs.png */; };
 		C73A715518A8CEB500347DE7 /* Ray.png in Resources */ = {isa = PBXBuildFile; fileRef = C73A715118A8CEB500347DE7 /* Ray.png */; };
-		C73A715818A8D71000347DE7 /* AutolayoutWIthCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73A715718A8D71000347DE7 /* AutolayoutWIthCodeController.m */; };
+		C73A715C18A9BB9300347DE7 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73A715B18A9BB9300347DE7 /* NavigationViewController.m */; };
+		C73A715F18A9BDD000347DE7 /* AutolayoutWithCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73A715E18A9BDD000347DE7 /* AutolayoutWithCodeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +67,10 @@
 		C73A714F18A8CEB500347DE7 /* Dennis Ritchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dennis Ritchie.png"; path = "Resource/images/Dennis Ritchie.png"; sourceTree = "<group>"; };
 		C73A715018A8CEB500347DE7 /* Matthijs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Matthijs.png; path = Resource/images/Matthijs.png; sourceTree = "<group>"; };
 		C73A715118A8CEB500347DE7 /* Ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ray.png; path = Resource/images/Ray.png; sourceTree = "<group>"; };
-		C73A715618A8D71000347DE7 /* AutolayoutWIthCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutolayoutWIthCodeController.h; path = Source/Module/UseCode/AutolayoutWIthCodeController.h; sourceTree = "<group>"; };
-		C73A715718A8D71000347DE7 /* AutolayoutWIthCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutolayoutWIthCodeController.m; path = Source/Module/UseCode/AutolayoutWIthCodeController.m; sourceTree = "<group>"; };
+		C73A715A18A9BB9300347DE7 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationViewController.h; path = Source/Module/Navigation/NavigationViewController.h; sourceTree = "<group>"; };
+		C73A715B18A9BB9300347DE7 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationViewController.m; path = Source/Module/Navigation/NavigationViewController.m; sourceTree = "<group>"; };
+		C73A715D18A9BDD000347DE7 /* AutolayoutWithCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutolayoutWithCodeController.h; path = Source/Module/UseCode/AutolayoutWithCodeController.h; sourceTree = "<group>"; };
+		C73A715E18A9BDD000347DE7 /* AutolayoutWithCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutolayoutWithCodeController.m; path = Source/Module/UseCode/AutolayoutWithCodeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,7 @@
 		C73A713E18A89FDA00347DE7 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				C73A715918A9BB7500347DE7 /* Navigation */,
 				C73A714018A89FEE00347DE7 /* UseCode */,
 				C73A713F18A89FE300347DE7 /* UseXIB */,
 			);
@@ -206,8 +210,8 @@
 		C73A714018A89FEE00347DE7 /* UseCode */ = {
 			isa = PBXGroup;
 			children = (
-				C73A715618A8D71000347DE7 /* AutolayoutWIthCodeController.h */,
-				C73A715718A8D71000347DE7 /* AutolayoutWIthCodeController.m */,
+				C73A715D18A9BDD000347DE7 /* AutolayoutWithCodeController.h */,
+				C73A715E18A9BDD000347DE7 /* AutolayoutWithCodeController.m */,
 			);
 			name = UseCode;
 			sourceTree = "<group>";
@@ -229,6 +233,15 @@
 				C73A715118A8CEB500347DE7 /* Ray.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		C73A715918A9BB7500347DE7 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C73A715A18A9BB9300347DE7 /* NavigationViewController.h */,
+				C73A715B18A9BB9300347DE7 /* NavigationViewController.m */,
+			);
+			name = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,8 +348,9 @@
 			files = (
 				C73A714518A8A1DA00347DE7 /* AutolayoutViewController.m in Sources */,
 				C73A711E18A89FAF00347DE7 /* AppDelegate.m in Sources */,
+				C73A715C18A9BB9300347DE7 /* NavigationViewController.m in Sources */,
+				C73A715F18A9BDD000347DE7 /* AutolayoutWithCodeController.m in Sources */,
 				C73A711A18A89FAF00347DE7 /* main.m in Sources */,
-				C73A715818A8D71000347DE7 /* AutolayoutWIthCodeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

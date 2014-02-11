@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 douban. All rights reserved.
 //
 
-#import "AutolayoutWIthCodeController.h"
+#import "AutolayoutWithCodeController.h"
 
-@interface AutolayoutWIthCodeController ()
+@interface AutolayoutWithCodeController ()
 {
   UILabel *_label;
   UIButton *_button;
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation AutolayoutWIthCodeController
+@implementation AutolayoutWithCodeController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

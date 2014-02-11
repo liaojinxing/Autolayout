@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AutolayoutWIthCodeController : UIViewController
+@interface AutolayoutWithCodeController : UIViewController
 
 @end
