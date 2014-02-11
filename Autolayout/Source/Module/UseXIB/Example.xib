@@ -14,7 +14,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dYx-6e-ORT" userLabel="RayView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dYx-6e-ORT" userLabel="RayView">
                     <rect key="frame" x="0.0" y="0.0" width="156" height="279"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
@@ -25,7 +25,7 @@
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="Ray.png" translatesAutoresizingMaskIntoConstraints="NO" id="d2q-7V-DPw">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Ray.png" translatesAutoresizingMaskIntoConstraints="NO" id="d2q-7V-DPw">
                             <rect key="frame" x="20" y="20" width="116" height="210"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
@@ -40,18 +40,18 @@
                         <constraint firstAttribute="trailing" secondItem="d2q-7V-DPw" secondAttribute="trailing" constant="20" id="rZa-Zc-yJK"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yRM-8z-fiV" userLabel="RitmanView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yRM-8z-fiV" userLabel="RitmanView">
                     <rect key="frame" x="166" y="289" width="156" height="279"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" text="Ritman" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqW-4s-Bzb">
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Ritman" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqW-4s-Bzb">
                             <rect key="frame" x="51" y="238" width="55" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="Dennis Ritchie.png" translatesAutoresizingMaskIntoConstraints="NO" id="xFf-Ae-y9O">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Dennis Ritchie.png" translatesAutoresizingMaskIntoConstraints="NO" id="xFf-Ae-y9O">
                             <rect key="frame" x="20" y="20" width="116" height="210"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
@@ -66,18 +66,18 @@
                         <constraint firstAttribute="centerX" secondItem="fqW-4s-Bzb" secondAttribute="centerX" id="mXr-OY-Xpj"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K35-z7-0wK" userLabel="BradView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K35-z7-0wK" userLabel="BradView">
                     <rect key="frame" x="0.0" y="289" width="156" height="279"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" text="Brad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Oa-ss-Bbr">
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Brad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Oa-ss-Bbr">
                             <rect key="frame" x="60" y="238" width="37" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="Brad Cox.png" translatesAutoresizingMaskIntoConstraints="NO" id="DYt-JL-QOa">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Brad Cox.png" translatesAutoresizingMaskIntoConstraints="NO" id="DYt-JL-QOa">
                             <rect key="frame" x="20" y="20" width="116" height="210"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
@@ -92,18 +92,18 @@
                         <constraint firstItem="DYt-JL-QOa" firstAttribute="top" secondItem="K35-z7-0wK" secondAttribute="top" constant="20" id="yJa-61-wfq"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lJ8-85-spZ" userLabel="MattView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJ8-85-spZ" userLabel="MattView">
                     <rect key="frame" x="166" y="0.0" width="156" height="279"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" text="Matt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1R7-6H-OBs">
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Matt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1R7-6H-OBs">
                             <rect key="frame" x="61" y="238" width="35" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="Matthijs.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nbg-eQ-zPy">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Matthijs.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nbg-eQ-zPy">
                             <rect key="frame" x="20" y="20" width="116" height="210"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>

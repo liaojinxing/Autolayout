@@ -26,17 +26,6 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
-  
- /* NSArray *xibArray = [[NSBundle mainBundle] loadNibNamed:@"Instrinsic" owner:nil options:nil];
-  UIView *myView = nil;
-  for (id xibObject in xibArray) {
-    //Loop through array, check for the object we're interested in.
-    if ([xibObject isKindOfClass:[UIView class]]) {
-      //Use casting to cast (id) to (MyCustomView *)
-      myView = (UIView *)xibObject;
-    }
-  }
-  [self.view addSubview:myView];*/
 }
 
 - (IBAction)buttonTapped:(UIButton *)sender

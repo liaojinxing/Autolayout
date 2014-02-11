@@ -21,7 +21,7 @@
                     <color key="backgroundColor" red="0.15972747330000001" green="0.18002207210000001" blue="0.70845363449999998" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UN8-7c-soU">
-                    <rect key="frame" x="20" y="296.99999939948879" width="280.00000079472858" height="266"/>
+                    <rect key="frame" x="20" y="296.99999939948873" width="280.00000079472858" height="266"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSr-Oy-9bk">
