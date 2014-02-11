@@ -7,6 +7,7 @@
 //
 
 #import "AutolayoutWithCodeController.h"
+#import "UIView+FLKAutoLayout.h"
 
 @interface AutolayoutWithCodeController ()
 {
@@ -18,19 +19,15 @@
 
 @implementation AutolayoutWithCodeController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (void)viewDidLoad
 {
-  self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-  if (self) {
-    // Custom initialization
-  }
-  return self;
+  [super viewDidLoad];
+  [self addSubViews];
+  [self autolayoutSubViewsUsingFLKAutoLayout];
 }
 
-- (void)loadSubViews
+- (void)addSubViews
 {
-  UIView *superView = self.view;
-  
   _label = [[UILabel alloc] init];
   [_label setText:@"I am label"];
   [_label setBackgroundColor:[UIColor redColor]];
@@ -43,7 +40,12 @@
   [_button setTranslatesAutoresizingMaskIntoConstraints:NO];
   [_button addTarget:self action:@selector(changeTitle) forControlEvents:UIControlEventTouchUpInside];
   [self.view addSubview:_button];
-  
+}
+
+//autolayout programming
+- (void)autolayoutSubViews
+{
+  UIView *superView = self.view;
   //button align vertical center
   NSLayoutConstraint *myConstraint =[NSLayoutConstraint
                                      constraintWithItem:_button
@@ -91,10 +93,12 @@
   [superView addConstraint:myConstraint];
 }
 
-- (void)viewDidLoad
+- (void)autolayoutSubViewsUsingFLKAutoLayout
 {
-  [super viewDidLoad];
-  [self loadSubViews];
+  [_button alignCenterXWithView:self.view predicate:nil];
+  [_button alignCenterYWithView:self.view predicate:nil];
+  [_label constrainLeadingSpaceToView:_button predicate:@"10"];
+  [_button alignBaselineWithView:_label predicate:nil];
 }
 
 - (void)changeTitle
