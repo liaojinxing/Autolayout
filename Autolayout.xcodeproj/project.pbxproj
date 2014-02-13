@@ -20,7 +20,6 @@
 		C73A712918A89FB000347DE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73A711118A89FAF00347DE7 /* UIKit.framework */; };
 		C73A713118A89FB000347DE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C73A712F18A89FB000347DE7 /* InfoPlist.strings */; };
 		C73A713318A89FB000347DE7 /* AutolayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73A713218A89FB000347DE7 /* AutolayoutTests.m */; };
-		C73A714218A8A05600347DE7 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = C73A714118A8A05600347DE7 /* View.xib */; };
 		C73A714518A8A1DA00347DE7 /* AutolayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73A714418A8A1DA00347DE7 /* AutolayoutViewController.m */; };
 		C73A714718A8B88700347DE7 /* Instrinsic.xib in Resources */ = {isa = PBXBuildFile; fileRef = C73A714618A8B88700347DE7 /* Instrinsic.xib */; };
 		C73A714B18A8C71E00347DE7 /* Example.xib in Resources */ = {isa = PBXBuildFile; fileRef = C73A714A18A8C71E00347DE7 /* Example.xib */; };
@@ -59,7 +58,6 @@
 		C73A712E18A89FB000347DE7 /* AutolayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutolayoutTests-Info.plist"; sourceTree = "<group>"; };
 		C73A713018A89FB000347DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C73A713218A89FB000347DE7 /* AutolayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutTests.m; sourceTree = "<group>"; };
-		C73A714118A8A05600347DE7 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View.xib; path = Source/Module/UseXIB/View.xib; sourceTree = "<group>"; };
 		C73A714318A8A1DA00347DE7 /* AutolayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutolayoutViewController.h; path = Source/Module/UseXIB/AutolayoutViewController.h; sourceTree = "<group>"; };
 		C73A714418A8A1DA00347DE7 /* AutolayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutolayoutViewController.m; path = Source/Module/UseXIB/AutolayoutViewController.m; sourceTree = "<group>"; };
 		C73A714618A8B88700347DE7 /* Instrinsic.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Instrinsic.xib; path = Source/Module/UseXIB/Instrinsic.xib; sourceTree = "<group>"; };
@@ -204,7 +202,6 @@
 		C73A713F18A89FE300347DE7 /* UseXIB */ = {
 			isa = PBXGroup;
 			children = (
-				C73A714118A8A05600347DE7 /* View.xib */,
 				C73A714318A8A1DA00347DE7 /* AutolayoutViewController.h */,
 				C73A714418A8A1DA00347DE7 /* AutolayoutViewController.m */,
 				C73A714618A8B88700347DE7 /* Instrinsic.xib */,
@@ -334,7 +331,6 @@
 				C73A715418A8CEB500347DE7 /* Matthijs.png in Resources */,
 				C73A715218A8CEB500347DE7 /* Brad Cox.png in Resources */,
 				C73A714718A8B88700347DE7 /* Instrinsic.xib in Resources */,
-				C73A714218A8A05600347DE7 /* View.xib in Resources */,
 				C73A712018A89FAF00347DE7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
