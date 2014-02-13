@@ -14,7 +14,7 @@ Auto Layout是由一系列的constraint构成的。constraint就是描述view在
 view1.attribute = view2.attribute * m + b
 ```
 attribute可以是以下其中之一：left, right, top, bottom, leading, trailing, width, height, centerX, centerY, and baseline.
-可以看iOS developer library文档：
+可以看iOS developer library文档：[iOS Developer Library]
 
 
 Auto Layout的强大之处
@@ -22,7 +22,7 @@ Auto Layout的强大之处
 - 可以很好的适应屏幕大小的变化。不需要为横屏、竖屏或者iphone和ipad做单独设置。
 - constraint的设置除了支持常量之外，还支持不等式，这就更灵活了。可以设置优先级，当不同的constraint之间存在冲突时，可以通过优先级来选择。
 - intrinsic content size。比如UILabel可以根据text自动适应宽高。可以告别过去先根据text计算label的宽高，再设置frame的时代了。
-- Auto layout在动画中也有用武之地。动画中视图变化较为频繁，view size改变可以是的其他view也很好的适应。比如类似于facebook paper的效果。
+- Auto layout在动画中也有用武之地。动画中视图变化较为频繁，view size改变时，其他view也很好的适应。比如类似于facebook paper的效果。
 
 Auto Layout的使用
 -----------------
