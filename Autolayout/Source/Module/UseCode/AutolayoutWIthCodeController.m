@@ -29,13 +29,13 @@
 - (void)addSubViews
 {
   _label = [[UILabel alloc] init];
-  [_label setText:@"I am label"];
+  [_label setText:@"I am a label"];
   [_label setBackgroundColor:[UIColor redColor]];
   [_label setTranslatesAutoresizingMaskIntoConstraints:NO];
   [self.view addSubview:_label];
   
   _button = [[UIButton alloc] init];
-  [_button setTitle:@"I am button" forState:UIControlStateNormal];
+  [_button setTitle:@"I am a button" forState:UIControlStateNormal];
   [_button setBackgroundColor:[UIColor greenColor]];
   [_button setTranslatesAutoresizingMaskIntoConstraints:NO];
   [_button addTarget:self action:@selector(changeTitle) forControlEvents:UIControlEventTouchUpInside];
