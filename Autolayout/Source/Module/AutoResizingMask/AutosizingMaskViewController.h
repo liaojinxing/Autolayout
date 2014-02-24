@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "BaseViewController.h"
 
-@interface AutoresizingMaskViewController : BaseViewController
+@interface AutosizingMaskViewController : BaseViewController
 
 @end

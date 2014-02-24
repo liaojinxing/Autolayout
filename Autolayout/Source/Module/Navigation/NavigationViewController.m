@@ -9,7 +9,7 @@
 #import "NavigationViewController.h"
 #import "AutolayoutViewController.h"
 #import "AutolayoutWithCodeController.h"
-#import "AutoresizingMaskViewController.h"
+#import "AutosizingMaskViewController.h"
 
 @interface NavigationViewController ()
 {
@@ -129,7 +129,7 @@
 
 - (void)pushAutoresizingMaskController
 {
-  AutoresizingMaskViewController *controller = [[AutoresizingMaskViewController alloc] initWithNibName:@"Autoresizing" bundle:nil];
+  AutosizingMaskViewController *controller = [[AutosizingMaskViewController alloc] initWithNibName:@"Autoresizing" bundle:nil];
   [self.navigationController pushViewController:controller animated:YES];
 }
 

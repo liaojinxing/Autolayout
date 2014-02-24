@@ -6,8 +6,8 @@
 //  Copyright (c) 2014年 douban. All rights reserved.
 //
 
-#import "AutoresizingMaskViewController.h"
+#import "AutosizingMaskViewController.h"
 
-@implementation AutoresizingMaskViewController
+@implementation AutosizingMaskViewController
 
 @end
