@@ -9,11 +9,13 @@
 #import "NavigationViewController.h"
 #import "AutolayoutViewController.h"
 #import "AutolayoutWithCodeController.h"
+#import "AutoresizingMaskViewController.h"
 
 @interface NavigationViewController ()
 {
   UIButton *_useXIBButton;
   UIButton *_intrinsicButton;
+  UIButton *_maskButton;
 }
 
 @end
@@ -44,6 +46,13 @@
   [_intrinsicButton addTarget:self action:@selector(pushIntrinsicController) forControlEvents:UIControlEventTouchUpInside];
   [self.view addSubview:_intrinsicButton];
   
+  _maskButton = [[UIButton alloc] init];
+  [_maskButton setTitle:@"AutoresizingMask demo" forState:UIControlStateNormal];
+  [_maskButton setBackgroundColor:[UIColor blackColor]];
+  [_maskButton setTranslatesAutoresizingMaskIntoConstraints:NO];
+  [_maskButton addTarget:self action:@selector(pushAutoresizingMaskController) forControlEvents:UIControlEventTouchUpInside];
+  [self.view addSubview:_maskButton];
+  
   NSLayoutConstraint *constraint = [NSLayoutConstraint
                 constraintWithItem:_useXIBButton
                 attribute:NSLayoutAttributeTop
@@ -51,7 +60,7 @@
                 toItem:superView
                 attribute:NSLayoutAttributeTop
                 multiplier:1.0
-                constant:100];
+                constant:60];
   [superView addConstraint:constraint];
   
   
@@ -82,7 +91,27 @@
                 toItem:_useXIBButton
                 attribute:NSLayoutAttributeBottom
                 multiplier:1.0
-                constant:100];
+                constant:60];
+  [superView addConstraint:constraint];
+  
+  constraint = [NSLayoutConstraint
+                constraintWithItem:_maskButton
+                attribute:NSLayoutAttributeCenterX
+                relatedBy:NSLayoutRelationEqual
+                toItem:superView
+                attribute:NSLayoutAttributeCenterX
+                multiplier:1.0
+                constant:0];
+  [superView addConstraint:constraint];
+  
+  constraint = [NSLayoutConstraint
+                constraintWithItem:_maskButton
+                attribute:NSLayoutAttributeTop
+                relatedBy:NSLayoutRelationEqual
+                toItem:_intrinsicButton
+                attribute:NSLayoutAttributeBottom
+                multiplier:1.0
+                constant:60];
   [superView addConstraint:constraint];
 }
 
@@ -97,5 +126,12 @@
   AutolayoutWithCodeController *controller = [[AutolayoutWithCodeController alloc] init];
   [self.navigationController pushViewController:controller animated:YES];
 }
+
+- (void)pushAutoresizingMaskController
+{
+  AutoresizingMaskViewController *controller = [[AutoresizingMaskViewController alloc] initWithNibName:@"Autoresizing" bundle:nil];
+  [self.navigationController pushViewController:controller animated:YES];
+}
+
 
 @end

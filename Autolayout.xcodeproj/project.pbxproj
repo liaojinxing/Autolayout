@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BDAD7A30F6E342949DBAB8D5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E02C697287BD4AC28286BD28 /* libPods.a */; };
+		C70BA27C18BAE3F0008265F6 /* AutoresizingMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70BA27B18BAE3F0008265F6 /* AutoresizingMaskViewController.m */; };
+		C70BA27E18BAE408008265F6 /* Autoresizing.xib in Resources */ = {isa = PBXBuildFile; fileRef = C70BA27D18BAE408008265F6 /* Autoresizing.xib */; };
+		C70BA28218BAE864008265F6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70BA28118BAE864008265F6 /* BaseViewController.m */; };
 		C73A710E18A89FAF00347DE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73A710D18A89FAF00347DE7 /* Foundation.framework */; };
 		C73A711018A89FAF00347DE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73A710F18A89FAF00347DE7 /* CoreGraphics.framework */; };
 		C73A711218A89FAF00347DE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73A711118A89FAF00347DE7 /* UIKit.framework */; };
@@ -42,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C70BA27A18BAE3F0008265F6 /* AutoresizingMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoresizingMaskViewController.h; path = Source/Module/AutoResizingMask/AutoresizingMaskViewController.h; sourceTree = "<group>"; };
+		C70BA27B18BAE3F0008265F6 /* AutoresizingMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoresizingMaskViewController.m; path = Source/Module/AutoResizingMask/AutoresizingMaskViewController.m; sourceTree = "<group>"; };
+		C70BA27D18BAE408008265F6 /* Autoresizing.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Autoresizing.xib; path = Source/Module/AutoResizingMask/Autoresizing.xib; sourceTree = "<group>"; };
+		C70BA28018BAE864008265F6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Source/Module/Base/BaseViewController.h; sourceTree = "<group>"; };
+		C70BA28118BAE864008265F6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Source/Module/Base/BaseViewController.m; sourceTree = "<group>"; };
 		C73A710A18A89FAF00347DE7 /* Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73A710D18A89FAF00347DE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C73A710F18A89FAF00347DE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -99,6 +107,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C70BA27918BAE388008265F6 /* AutoResizingMask */ = {
+			isa = PBXGroup;
+			children = (
+				C70BA27A18BAE3F0008265F6 /* AutoresizingMaskViewController.h */,
+				C70BA27B18BAE3F0008265F6 /* AutoresizingMaskViewController.m */,
+				C70BA27D18BAE408008265F6 /* Autoresizing.xib */,
+			);
+			name = AutoResizingMask;
+			sourceTree = "<group>";
+		};
+		C70BA27F18BAE848008265F6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C70BA28018BAE864008265F6 /* BaseViewController.h */,
+				C70BA28118BAE864008265F6 /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		C73A710118A89FAF00347DE7 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +219,8 @@
 		C73A713E18A89FDA00347DE7 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				C70BA27F18BAE848008265F6 /* Base */,
+				C70BA27918BAE388008265F6 /* AutoResizingMask */,
 				C73A715918A9BB7500347DE7 /* Navigation */,
 				C73A714018A89FEE00347DE7 /* UseCode */,
 				C73A713F18A89FE300347DE7 /* UseXIB */,
@@ -328,6 +357,7 @@
 				C73A715318A8CEB500347DE7 /* Dennis Ritchie.png in Resources */,
 				C73A714B18A8C71E00347DE7 /* Example.xib in Resources */,
 				C73A711818A89FAF00347DE7 /* InfoPlist.strings in Resources */,
+				C70BA27E18BAE408008265F6 /* Autoresizing.xib in Resources */,
 				C73A715418A8CEB500347DE7 /* Matthijs.png in Resources */,
 				C73A715218A8CEB500347DE7 /* Brad Cox.png in Resources */,
 				C73A714718A8B88700347DE7 /* Instrinsic.xib in Resources */,
@@ -387,6 +417,8 @@
 				C73A711E18A89FAF00347DE7 /* AppDelegate.m in Sources */,
 				C73A715C18A9BB9300347DE7 /* NavigationViewController.m in Sources */,
 				C73A715F18A9BDD000347DE7 /* AutolayoutWithCodeController.m in Sources */,
+				C70BA27C18BAE3F0008265F6 /* AutoresizingMaskViewController.m in Sources */,
+				C70BA28218BAE864008265F6 /* BaseViewController.m in Sources */,
 				C73A711A18A89FAF00347DE7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

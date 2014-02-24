@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface AutolayoutViewController : UIViewController
+@interface AutolayoutViewController : BaseViewController
 
 @property (nonatomic, retain) IBOutlet UIView *myViewFromNib;
 

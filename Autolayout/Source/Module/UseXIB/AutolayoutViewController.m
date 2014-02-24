@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
+  [self.navigationController.navigationBar setBackgroundColor:[UIColor clearColor]];
 }
 
 - (IBAction)buttonTapped:(UIButton *)sender

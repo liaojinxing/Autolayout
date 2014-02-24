@@ -1,10 +1,13 @@
 PODS:
   - FLKAutoLayout (0.1.1)
+  - YAUIKit (1.0.2)
 
 DEPENDENCIES:
   - FLKAutoLayout (~> 0.1.1)
+  - YAUIKit (~> 1.0.2)
 
 SPEC CHECKSUMS:
   FLKAutoLayout: fc04b932009174d4118ef4bda9dc8fedf1369efc
+  YAUIKit: 8d8ca5724e62c73002a6119d9581ec027bebab52
 
 COCOAPODS: 0.29.0

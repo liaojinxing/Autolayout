@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface AutolayoutWithCodeController : UIViewController
+@interface AutolayoutWithCodeController : BaseViewController
 
 @end
